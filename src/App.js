@@ -9,30 +9,30 @@ class App extends React.Component {
         id: 1
     }
   }
-  
 
-
+  changeQuote() {
+    this.setState(
+       {
+        id: this.state.id++
+        }
+      )
+    }
 
     render() {
       return (
         <div className="tc">
           <h1>Cheesy inspirational quotes</h1>
           <button
-            className="button"
-            onClick={changeQuote}>
+            id="button"
+            onClick={this.changeQuote()}
+            >
             Next quote
             </button>
           <Card quotes={quotes}/>
         </div>
       )
     }
-    changeQuote() {
-      this.setState(function() {
-        return {
-          id: 2
-          }
-        })
-      }
+
   }
 
 // const App = () => {
