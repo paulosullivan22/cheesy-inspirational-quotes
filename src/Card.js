@@ -4,7 +4,7 @@ const Card = ({ quotes }) => {
   return (
     <div className='tc bg-near-white dib br3 pa3 ma2 grow bw3 br2 w5 fw1 shadow5'>
      {quotes.map((input) => {
-       if (input.id === 3) {
+       if (input.id === 1) {
          return (
            <div key="input.id">
            <img src={`https://source.unsplash.com/random/200x200`} alt="inspirational"/>
