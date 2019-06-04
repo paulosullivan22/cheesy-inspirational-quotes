@@ -2,12 +2,14 @@ export const quotes = [
   {
     id: 1,
     quote: "It's not the number of breaths we take, but the number of moments that take our breath away.",
-    byline: "Great for those inspiration pep talks."
+    byline: "Great for those inspiration pep talks.",
+    pic:'https://source.unsplash.com/random/200x200'
   },
   {
     id: 2,
     quote: "Life is what happens to you while you're busy making other plans.",
-    byline: "Sick of slaving away behind a computer all day just so you can sit in your boxers, eat cereal out a of box and watch Spongebob Squarepants on your days off? Get your life plans in gear with this inspirational one-liner."
+    byline: "Sick of slaving away behind a computer all day just so you can sit in your boxers, eat cereal out a of box and watch Spongebob Squarepants on your days off? Get your life plans in gear with this inspirational one-liner.",
+    pic:'https://source.unsplash.com/random/200x200'
   },
   {
     id: 3,

@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from './Card';
-import { quotes } from './Quotes';
 
 class App extends React.Component {
   constructor() {
@@ -10,7 +9,7 @@ class App extends React.Component {
     }
   }
 
-  changeQuote() {
+  changeQuote = () => {
     this.setState(
        {
         id: this.state.id++
@@ -24,11 +23,11 @@ class App extends React.Component {
           <h1>Cheesy inspirational quotes</h1>
           <button
             id="button"
-            onClick={this.changeQuote()}
+            onClick={this.changeQuote}
             >
             Next quote
             </button>
-          <Card quotes={quotes}/>
+          <Card  id={this.state.id}/>
         </div>
       )
     }
